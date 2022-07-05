@@ -21,6 +21,8 @@ class MainWindow(QMainWindow):
 
         grid.addWidget(label, 0, 0)
 
+        print(label.pixmap())
+
 
 if __name__ == "__main__":
     import sys
