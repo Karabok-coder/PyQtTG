@@ -24,9 +24,9 @@ class MainWindow(QMainWindow):
         ageLabel.setBuddy(ageSpinBox)
 
         formLayout = QFormLayout()
-        formLayout.addRow(self.tr("&Name:"), nameLineEdit)
-        formLayout.addRow(self.tr("&Email:"), emailLineEdit)
-        formLayout.addRow(self.tr("&Age:"), ageSpinBox)
+        formLayout.addRow(nameLabel, nameLineEdit)
+        formLayout.addRow(emailLabel, emailLineEdit)
+        formLayout.addRow(ageLabel, ageSpinBox)
         cental_widget.setLayout(formLayout)
 
 if __name__ == "__main__":
