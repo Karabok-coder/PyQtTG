@@ -1,7 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow, QLabel, QWidget, QGridLayout, QFormLayout, QLineEdit, QHBoxLayout
 from PyQt5.Qt import QApplication
 from PyQt5 import QtCore
-from scipy.misc import central_diff_weights
 
 class MainWindow(QMainWindow):
     def __init__(self):
