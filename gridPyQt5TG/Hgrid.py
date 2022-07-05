@@ -10,8 +10,6 @@ class MainWindow(QMainWindow):
         cental_widget = QWidget()
         self.setCentralWidget(cental_widget)
 
-
-
         nameLineEdit = QLineEdit()
         emailLineEdit = QLineEdit()
         ageSpinBox = QLineEdit()
@@ -27,15 +25,12 @@ class MainWindow(QMainWindow):
 
         Hlayout = QHBoxLayout()
 
-        Hlayout.stretch(6)
-
         Hlayout.addWidget(nameLineEdit)
         Hlayout.addWidget(emailLineEdit)
         Hlayout.addWidget(ageSpinBox)
         Hlayout.addWidget(nameLabel)
         Hlayout.addWidget(emailLabel)
         Hlayout.addWidget(ageLabel)
-
 
         cental_widget.setLayout(Hlayout)
 
