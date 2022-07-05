@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setTextInteractionFlags(QtCore.Qt.TextInteractionFlag.TextSelectableByMouse)
 
-        btn = QPushButton('Изменить Alignment')
+        btn = QPushButton('Вывести выделенный текст')
         btn.clicked.connect(self.btn_alig)
         
         grid.addWidget(self.label, 0, 0)
